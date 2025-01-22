@@ -1,0 +1,5 @@
+total 0
+-rw-rw-r-- 1 mohamedirfan mohamedirfan 0 Jan 22 20:57 list.txt
+-rw-rw-r-- 1 mohamedirfan mohamedirfan 0 Jan 22 20:56 file2.txt
+-rw-rw-r-- 1 mohamedirfan mohamedirfan 0 Jan 22 20:55 file3.txt
+-rw-rw-r-- 1 mohamedirfan mohamedirfan 0 Jan 22 20:55 file1.txt

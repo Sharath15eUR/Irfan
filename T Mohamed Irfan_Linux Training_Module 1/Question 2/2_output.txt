@@ -1,0 +1,1 @@
+-rw-r--r-- 1 mohamedirfan mohamedirfan 0 Jan 22 20:37 2_file.txt

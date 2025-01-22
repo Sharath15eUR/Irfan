@@ -1,0 +1,8 @@
+dir1/:
+total 4
+lrwxrwxrwx 1 mohamedirfan mohamedirfan   10 Jan 22 20:47 3_filelink.txt -> 3_file.txt
+drwxrwxr-x 2 mohamedirfan mohamedirfan 4096 Jan 22 20:46 dir2
+
+dir1/dir2:
+total 0
+-rw-rw-r-- 1 mohamedirfan mohamedirfan 0 Jan 22 20:46 3_file.txt
