@@ -1,0 +1,9 @@
+Script started on 2025-01-24 15:10:03+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;mohamedirfan@mohamedirfan: ~/Documents/Assignment 1[01;32mmohamedirfan@mohamedirfan[00m:[01;34m~/Documents/Assignment 1[00m$ touch q2.tt[Kxt
+[?2004l[?2004h]0;mohamedirfan@mohamedirfan: ~/Documents/Assignment 1[01;32mmohamedirfan@mohamedirfan[00m:[01;34m~/Documents/Assignment 1[00m$ chmod g-w q2.txt
+[?2004l[?2004h]0;mohamedirfan@mohamedirfan: ~/Documents/Assignment 1[01;32mmohamedirfan@mohamedirfan[00m:[01;34m~/Documents/Assignment 1[00m$ ls  [K-l q1.t[K[K[K2.txt
+[?2004l-rw-r--r-- 1 mohamedirfan mohamedirfan 0 Jan 24 15:10 q2.txt
+[?2004h]0;mohamedirfan@mohamedirfan: ~/Documents/Assignment 1[01;32mmohamedirfan@mohamedirfan[00m:[01;34m~/Documents/Assignment 1[00m$ exit
+[?2004lexit
+
+Script done on 2025-01-24 15:10:57+05:30 [COMMAND_EXIT_CODE="0"]
