@@ -1,0 +1,26 @@
+Script started on 2025-01-27 13:14:28+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;mohamedirfan@mohamedirfan: ~/Documents/Assignment 3[01;32mmohamedirfan@mohamedirfan[00m:[01;34m~/Documents/Assignment 3[00m$ ls /gome[K[K[K[Khome/mohamedirfan/Docume nts/Source
+[?2004l'Q1 Add Executable Permission.txt'  [0m[01;31m'Q3 Add Softlink.zip'[0m
+ [01;32mq1.txt[0m                             'Q4 Display All Active Processes.txt'
+'Q2 Remove Write Permission.txt'    [01;34m'Q5 Sort By Timestamp'[0m
+ q2.txt                             [01;31m'Q5 Sort By Timestamp.zip'[0m
+[01;34m'Q3 Add Softlink'[0m
+[?2004h]0;mohamedirfan@mohamedirfan: ~/Documents/Assignment 3[01;32mmohamedirfan@mohamedirfan[00m:[01;34m~/Documents/Assignment 3[00m$ ls /gome/[K[K[K[K[Khome//[Km[Kmohamedirfan/Deskto p/Backup
+[?2004l[?2004h]0;mohamedirfan@mohamedirfan: ~/Documents/Assignment 3[01;32mmohamedirfan@mohamedirfan[00m:[01;34m~/Documents/Assignment 3[00m$ ls
+[?2004l[0m[01;32mbackup_manager.sh[0m  script.txt
+[?2004h]0;mohamedirfan@mohamedirfan: ~/Documents/Assignment 3[01;32mmohamedirfan@mohamedirfan[00m:[01;34m~/Documents/Assignment 3[00m$ ./sh[K[K back[K[K[K[K[Kbackup_managers[K.sh "/home/m ohamedirfan/Documents/Source/[K" "/home/mohamedirfan/Desko[Ktop/Backup" ".txt"
+[?2004lFiles to be backed up:
+File: /home/mohamedirfan/Documents/Source/Q1 Add Executable Permission.txt, Size: 955 bytes
+File: /home/mohamedirfan/Documents/Source/q1.txt, Size: 0 bytes
+File: /home/mohamedirfan/Documents/Source/Q2 Remove Write Permission.txt, Size: 924 bytes
+File: /home/mohamedirfan/Documents/Source/q2.txt, Size: 0 bytes
+File: /home/mohamedirfan/Documents/Source/Q4 Display All Active Processes.txt, Size: 16731 bytes
+[?2004h]0;mohamedirfan@mohamedirfan: ~/Documents/Assignment 3[01;32mmohamedirfan@mohamedirfan[00m:[01;34m~/Documents/Assignment 3[00m$ ./backup_manager.sh "/home/mohamedirfan/Documents/Source" "/home/mohamedirfan/Desktop/Backup" ".txt"[Als[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /home/mohamedirfan/Desktop/Backup
+[?2004l backup_report.log                  'Q2 Remove Write Permission.txt'
+'Q1 Add Executable Permission.txt'   q2.txt
+ [0m[01;32mq1.txt[0m                             'Q4 Display All Active Processes.txt'
+[?2004h]0;mohamedirfan@mohamedirfan: ~/Documents/Assignment 3[01;32mmohamedirfan@mohamedirfan[00m:[01;34m~/Documents/Assignment 3[00m$ exit
+[?2004lexit
+
+Script done on 2025-01-27 13:16:17+05:30 [COMMAND_EXIT_CODE="0"]
