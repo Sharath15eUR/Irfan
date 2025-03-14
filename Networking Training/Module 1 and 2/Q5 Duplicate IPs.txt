@@ -1,0 +1,13 @@
+When two or more devices in a network have the same IP address, it causes an IP conflict, leading to communication issues. Here’s what happens:
+
+1. Network Issues Due to Duplicate IPs
+Intermittent Connectivity: Devices may randomly lose network access.
+Packet Loss: Packets may be delivered to the wrong device or dropped.
+Unreachable Devices: Some devices may not be able to communicate properly.
+Network Instability: Routers and switches may continuously update ARP tables, causing network slowdowns.
+
+Scenarios:
+i. Two devices have the same static IP - One or both may lose connectivity.
+ii. One device has static IP, another uses DHCP - The DHCP device may fail to get an IP.
+iii. Router and a device have the same IP	- The entire network may be disrupted.
+iv. Duplicate IPs on different subnets - Usually no issue unless routing overlaps.
