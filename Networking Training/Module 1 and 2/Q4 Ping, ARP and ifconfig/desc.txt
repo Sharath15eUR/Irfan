@@ -1,0 +1,24 @@
+1. ping - Check Network Connectivity
+Sends ICMP Echo Request packets to a host to check if it’s reachable.
+
+Common Output Parameters:
+time → Round-trip time in ms
+ttl → Time to live (packet hops before being discarded)
+packet loss → If any packets fail to reach the destination
+
+2. arp - View MAC Address Table
+Displays and modifies the ARP (Address Resolution Protocol) cache.
+
+Common Output Parameters:
+IP Address → Target device’s IP in the local network
+MAC Address → Physical address of the device
+Interface → Network interface used
+
+3. ifconfig - View and Configure Network Interfaces
+Shows IP addresses, MAC addresses, and interface details.
+
+Common Output Parameters:
+inet addr → IPv4 address of the interface
+netmask → Subnet mask
+broadcast → Broadcast address
+RX/TX packets → Received and transmitted packets count
