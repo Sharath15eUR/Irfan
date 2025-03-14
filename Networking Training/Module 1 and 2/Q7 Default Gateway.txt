@@ -1,0 +1,18 @@
+1. In Linux, we can check your default gateway using:
+ip route show
+
+Example output:
+default via 192.168.1.1 dev eth0 proto dhcp metric 100
+
+Here, 192.168.1.1 is the default gateway.
+
+2. Use the ping command to check connectivity:
+ping -c 4 192.168.1.1
+
+If we receive replies (64 bytes from 192.168.1.1), the gateway is reachable.
+If there's no response (Destination Host Unreachable or Request Timed Out), the gateway is not reachable.
+
+3. Understanding the Default Gateway
+The default gateway is a router or network device that connects your local network to external networks (like the internet).
+All outgoing traffic that doesn't match a local route is sent through the default gateway.
+If the gateway is unreachable, internet access may not work.
