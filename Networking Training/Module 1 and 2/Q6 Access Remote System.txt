@@ -1,0 +1,52 @@
+a) VNC Viewer (Virtual Network Computing)
+VNC requires a VNC server on the remote machine and a VNC client (viewer) on your local machine.
+
+1. Install VNC Server on the remote machine
+
+i. Ubuntu/Debian:
+sudo apt install tightvncserver
+
+ii. Start VNC server and set a password:
+vncserver
+
+2. Install VNC Viewer on the local machine
+- Use RealVNC Viewer or TigerVNC Viewer.
+
+3. Connect using VNC Viewer
+- Enter the remote machine’s IP and port, e.g., 192.168.1.100:5901.
+- Enter the VNC password and start the session.
+
+b) AnyDesk
+
+1. Install AnyDesk
+- Download from AnyDesk official site.
+- Install it on both local and remote machines.
+
+2. Connect to a Remote System
+- Open AnyDesk.
+- Enter the AnyDesk address of the remote machine.
+- The remote user must accept the request.
+- Now you can control the system remotely.
+
+c) TeamViewer
+
+1. Install TeamViewer
+- Download from TeamViewer official site.
+- Install on both local and remote machines.
+
+2. Connect Remotely
+- Open TeamViewer.
+- Enter the remote system’s TeamViewer ID and password.
+- Click Connect, and you will gain access.
+
+d) Remote Desktop Protocol (RDP) - Windows
+
+1. Enable RDP on the Remote Windows Machine
+- Open Settings > System > Remote Desktop.
+- Enable Remote Desktop.
+- Note the PC name or IP address.
+
+2. Connect Using RDP
+- On your local machine, open Remote Desktop Connection (mstsc).
+- Enter the IP address or PC name.
+- Log in using the remote Windows credentials.
