@@ -1,0 +1,9 @@
+A DHCP (Dynamic Host Configuration Protocol) server dynamically assigns IP addresses to devices in a network. 
+Here's how the process works:
+
+DORA Process:
+DHCP Discovery – A device (client) connects to the network and broadcasts a request (DHCPDISCOVER) to find available DHCP servers.
+DHCP Offer – The DHCP server responds with an IP address offer (DHCPOFFER), including subnet mask, gateway, and DNS information.
+DHCP Request – The client requests the offered IP by sending a DHCPREQUEST to the server.
+DHCP Acknowledgment – The DHCP server confirms the assignment (DHCPACK), and the client can now use the IP address for communication.
+The DHCP server ensures that each device gets a unique IP address and renews or reassigns it as needed.
