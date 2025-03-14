@@ -1,0 +1,17 @@
+Important Parameters in iwconfig:
+
+ESSID: Name of the Wi-Fi network.
+Mode: Managed (client mode) or Master (AP mode).
+Frequency: Wi-Fi frequency in GHz.
+Bit Rate: Maximum data transfer rate.
+Tx-Power: Transmission power in dBm.
+Access Point: MAC address of the connected Wi-Fi router.
+
+Important Parameters in ifconfig:
+  
+inet addr: IP address assigned to the device.
+Bcast: Broadcast address for the network.
+Mask: Subnet mask.
+MTU: Maximum Transmission Unit (default 1500 bytes).
+HWaddr: MAC address of the interface.
+UP/RUNNING: If the network is active.
