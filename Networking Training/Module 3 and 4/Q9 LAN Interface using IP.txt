@@ -1,0 +1,19 @@
+To configure a basic LAN interface in Linux, the first thing to do is check the available network interfaces using:
+`ip link show`
+This will list all network interfaces, including Ethernet (eth0, ens33, etc.). 
+
+If the interface is down, it needs to be enabled with:
+`sudo ip link set eth0 up`
+
+Next, to manually assign an IP address to the Ethernet interface:
+`sudo ip addr add 192.168.1.10/24 dev eth0`
+This assigns the IP 192.168.1.10 with a subnet mask of /24 to the Ethernet interface. 
+
+If the network requires a gateway, it can be added like this:
+sudo ip route add default via 192.168.1.1
+
+To verify that the configuration is working, running:
+`ip addr show eth0` will show the assigned IP.
+`ping 192.168.1.1` confirms network connectivity.
+
+If everything is set up correctly, the system should be able to communicate within the LAN.
