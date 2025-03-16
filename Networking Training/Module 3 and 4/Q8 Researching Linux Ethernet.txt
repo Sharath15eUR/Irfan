@@ -1,0 +1,25 @@
+Linux assigns names like eth0, ens33, or wlan0 to network interfaces. 
+Running `ip link show` gave me a list of all available interfaces.
+
+Ethernet communication in Linux works through different layers. 
+Applications send network requests, the kernel processes them using protocols like TCP/IP, and network drivers handle the actual communication with the physical network card.
+
+I used `sudo tcpdump -i eth0` to see packets moving in and out of the interface.
+
+Network drivers in Linux are loaded as kernel modules. Some common ones are:
+
+- e1000 (Intel)
+- r8169 (Realtek)
+- tg3 (Broadcom)
+
+I checked which driver my system was using with `lsmod | grep e1000`.
+
+Configuring Ethernet manually was another useful thing I learned. 
+Assigning an IP:
+`sudo ip addr add 192.168.1.10/24 dev eth0`
+
+To enable or disable an interface using:
+`sudo ip link set eth0 up` (enable)
+`sudo ip link set eth0 down` (disable)
+
+Overall, the Linux kernel efficiently manages Ethernet communication, handling everything from packet transmission to network driver support.
