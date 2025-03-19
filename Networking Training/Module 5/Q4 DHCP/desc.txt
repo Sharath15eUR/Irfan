@@ -1,0 +1,6 @@
+When a device connects to a network, it follows the DORA process to get an IP from the DHCP server:
+
+Discover – The client broadcasts a request for a DHCP server.
+Offer – The server responds with an available IP and other details.
+Request – The client asks to lease the offered IP.
+Acknowledge – The server confirms the lease, and the client starts using the IP.

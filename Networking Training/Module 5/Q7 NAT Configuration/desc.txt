@@ -1,0 +1,2 @@
+IP before NAT: 192.168.1.2
+IP after NAT: 200.0.0.1

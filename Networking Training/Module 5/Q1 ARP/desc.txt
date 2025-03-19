@@ -1,0 +1,1 @@
+In an ARP request, the sender asks, "Who has this IP?" by broadcasting the request on the network. It includes the sender’s IP and MAC address. The device with the matching IP responds with an ARP reply, providing its MAC address. This allows the sender to map the IP to a MAC and send packets correctly.
