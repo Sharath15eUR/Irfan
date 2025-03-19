@@ -1,0 +1,12 @@
+Step 1: Identifying IP Classes
+192.168.10.5 → Class C (Range: 192.0.0.0 - 223.255.255.255, Mask: 255.255.255.0)
+172.20.15.1 → Class B (Range: 128.0.0.0 - 191.255.255.255, Mask: 255.255.0.0)
+8.8.8.8 → Class A (Range: 1.0.0.0 - 126.255.255.255, Mask: 255.0.0.0)
+
+Step 2: Public vs. Private IPs
+192.168.10.5 → Private (In 192.168.x.x range)
+172.20.15.1 → Private (In 172.16.0.0 - 172.31.255.255 range)
+8.8.8.8 → Public (Google DNS, accessible worldwide)
+
+Step 3: NAT Handling Private IPs
+Private IPs cannot be routed on the internet. NAT translates private IPs (e.g., 192.168.10.5) into a public IP (e.g., 203.0.113.5) assigned by the ISP. This allows private devices to communicate with public servers like 8.8.8.8. NAT ensures responses are correctly routed back to the requesting device.

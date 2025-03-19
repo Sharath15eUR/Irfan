@@ -1,0 +1,1 @@
+ARP (Address Resolution Protocol) is essential for packet forwarding because devices communicate using MAC addresses within a network. When a device needs to send data to another device, it first uses ARP to find the MAC address associated with the destination IP. Without ARP, devices wouldn’t know where to send packets, making communication within a local network impossible.
